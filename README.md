@@ -1,44 +1,46 @@
-# \# Investment Strategy Prospectus
+# Investment Strategy Prospectus
 
-# 
+## Strategy Summary
+This portfolio is designed for **retail investors** with a **moderate risk tolerance**.  
+The objective is **capital appreciation and steady growth** through diversified exposure to equities and stable assets.  
 
-# Short summary of the strategy (e.g., retail-focused, 70% equities with tech/financial tilt, industrials + gold as hedges).
+- **70% equities** tilted towards **technology (NVIDIA, Microsoft, Tesla)** and **financials (JPMorgan, Bank of America)**  
+- **Industrials (General Electric)** and **5-year U.S. Treasury bonds** provide hedges against inflation and geopolitical risk  
+- **Dynamic rebalancing** is applied quarterly (or during major macroeconomic shifts) to balance growth and risk  
+- Portfolio is benchmarked against the **S&P 500**  
 
-# 
+---
 
-# \## Contents
+## Contents
 
-# \- `reports/` — Final prospectus PDF
+- `reports/` — Final prospectus PDF  
+- `notebooks/` — Jupyter notebooks (analysis, backtests, charts)  
+- `src/` — Reusable Python helpers  
+- `outputs/figures/` — Generated graphs (ignore in Git)  
+- `data/` — (empty) placeholder for small local datasets  
 
-# \- `notebooks/` — Jupyter notebooks (analysis, backtests, charts)
+---
 
-# \- `src/` — Reusable Python helpers
+## Data
 
-# \- `outputs/figures/` — Generated graphs (may be ignored from Git)
+- All data is **publicly available** (e.g., Yahoo Finance, FRED, or equivalent APIs)  
+- Data is **not stored** in this repo  
+- To reproduce results:  
+  1. Download from the provider or set your API key  
+  2. Run the Jupyter notebooks  
 
-# \- `data/` — (empty) place small local datasets if needed
+---
 
-# 
+## Environment
 
-# \## Data
+```bash
+# Create and activate virtual environment
+python -m venv .venv
 
-# Data is public (e.g., \[provider/API]). It is \*\*not stored\*\* in this repo.  
+# Windows PowerShell
+.\.venv\Scripts\Activate.ps1
 
-# To reproduce, download from \[link] or set your API key, then run notebooks.
-
-# 
-
-# \## Environment
-
-# ```bash
-
-# python -m venv .venv
-
-# \# Windows PowerShell
-
-# .\\.venv\\Scripts\\Activate.ps1
-
-# pip install -r requirements.txt
-
+# Install dependencies
+pip install -r requirements.txt
 
 
