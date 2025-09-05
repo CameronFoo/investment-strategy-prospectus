@@ -1,0 +1,25 @@
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Environments
+.venv/
+.env
+.env.*
+
+# Python junk
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+
+# Keep repo light (choose one approach)
+# EITHER ignore all outputs:
+outputs/
+# OR commit only curated final figures:
+# outputs/figures/
